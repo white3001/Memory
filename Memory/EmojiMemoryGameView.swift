@@ -22,7 +22,6 @@ struct EmojiMemoryGameView: View {
             
         }.padding()
         
-       //this is a comment
     }
     
     var cards: some View{
