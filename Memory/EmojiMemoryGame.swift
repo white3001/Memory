@@ -11,7 +11,7 @@ import SwiftUI
 class EmojiMemoryGame :ObservableObject {
     //private static will malke the emojis var global, ensuring it will be initalized before the rest of this class
     
-    private static let emojis = ["👻", "🐙", "🐲", "🐹", "🐬", "🐸","🪲","🐣","🐴","🐞","🐓","🐿️"]
+    private static let emojis = ["👻", "🐙", "🐨", "🐹", "🐬", "🐸","🐯","🐣","🐴","🦋","🐓","🐶"]
     //making this variable private, so it cannot be accessed form the outside
     
     private static func createMemoryGame() -> MemoryGame<String> {

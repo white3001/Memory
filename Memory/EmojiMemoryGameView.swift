@@ -30,6 +30,9 @@ struct EmojiMemoryGameView: View {
                 CardView(card: card)
                     .aspectRatio(2/3, contentMode: .fit)
                     .padding(4)
+                    .onTapGesture {
+                        viewModel.choose(card)
+                    }
             }
             
         }
